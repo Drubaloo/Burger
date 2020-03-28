@@ -1,0 +1,161 @@
+li {
+  padding: 5px;
+  margin: 5px;
+  background: #faebd7;
+  align-content: center;
+  text-align: center;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+body{
+  background-color: #abea56;
+  
+  font-family: 'Comic Neue', cursive;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.container{
+  display: grid;
+  grid-gap: 3px;
+  justify-content: center;
+  align-content: center;
+}
+.logo{
+  grid-row: 1;
+  grid-column: 1/4;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.slogan{
+  margin-top: 1rem;
+}
+
+.dancingbob{
+  grid-row: 1;
+  grid-column: 3;
+}
+
+
+.item1{
+  background-color: #dbd94a;
+  border: solid;
+  
+  border-color: #d70e02;
+
+  grid-column: 1;
+  grid-row: 2;
+  font-size: large;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.item2{
+  background-color: #dbd94a;
+  border: solid;
+  
+  border-color: #d70e02;
+
+  grid-column: 2;
+  grid-row: 2;
+  font-size: large;
+  font-family: 'Permanent Marker', cursive;
+}
+
+input{
+  background-color: rgb(34, 34, 34);
+  color: white;
+  font-size: medium;
+  font-weight: 400;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.item3{
+  background-color: #dbd94a;
+  border: solid;
+  
+  border-color: #d70e02;
+  text-align: center;
+
+  grid-column: 3;
+  grid-row: 2;
+
+  align-content: center;
+  justify-content: center;
+  font-size: large;
+  font-family: 'Permanent Marker', cursive;
+}
+
+
+button{
+  background-color: #dbd94a;
+  color: #d70e02;
+  border-color: #d70e02;
+  border-style: solid;
+  border-width: medium;
+  font-family: 'Comic Neue', cursive;
+  padding: .5rem;
+}
+
+
+@media screen and (max-width: 992px) {
+  .item1{
+    background-color: #dbd94a;
+    border: solid;
+    
+    border-color: #d70e02;
+    justify-content: center;
+    align-content: center;
+    grid-column: 1;
+    grid-row: 2;
+    font-size: large;
+    font-family: 'Permanent Marker', cursive;
+  }
+  
+  .item2{
+    background-color: #dbd94a;
+    border: solid;
+    
+    border-color: #d70e02;
+    justify-content: center;
+    align-content: center;
+    grid-column: 1;
+    grid-row: 3;
+    font-size: large;
+    font-family: 'Permanent Marker', cursive;
+  }
+
+  .item3{
+    background-color: #dbd94a;
+    border: solid;
+    
+    border-color: #d70e02;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+  
+    grid-column: 1;
+    grid-row: 4;
+  
+    align-content: center;
+    justify-content: center;
+    font-size: large;
+    font-family: 'Permanent Marker', cursive;
+  }
+}
+

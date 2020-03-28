@@ -1,2 +1,2 @@
-# Burger
-testing myself with node express
+# Burger-bar
+Testing myself with Node and Express
